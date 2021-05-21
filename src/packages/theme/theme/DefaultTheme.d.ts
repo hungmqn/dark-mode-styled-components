@@ -10,5 +10,7 @@ declare module 'styled-components' {
       backgroundColor: string,
       backgroundColorInverse: string,
     };
+    sizes: Array;
+    spaces: Array;
   }
 }

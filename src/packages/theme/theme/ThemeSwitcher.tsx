@@ -13,8 +13,16 @@ const ThemeSwitcher: FunctionComponent = () => {
   };
 
   return (
-    <button style={{ fontSize: '30px' }} onClick={changeTheme}>
-      {darkMode ? '⚇' : '⚉'}
+    <button
+      style={{
+        fontSize: 30,
+        border: 'none',
+        backgroundColor: 'transparent',
+        cursor: 'pointer',
+      }}
+      onClick={changeTheme}
+    >
+      {darkMode ? 'UwU' : '-.-'}
     </button>
   );
 };

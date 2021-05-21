@@ -10,12 +10,16 @@ const lightTheme: DefaultTheme = {
   colors: {
     ...colorsLight,
   },
+  sizes,
+  spaces,
 };
 
 const darkTheme: DefaultTheme = {
   colors: {
     ...colorsDark,
   },
+  sizes,
+  spaces,
 };
 
 export {
@@ -26,6 +30,4 @@ export {
   initDarkMode,
   lightTheme,
   darkTheme,
-  sizes,
-  spaces,
 };
